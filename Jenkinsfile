@@ -15,12 +15,12 @@ pipeline {
                   sh 'tidy -q -e *.html'
               }
          }
-	stage('staging') {
+	 stage('staging') {
               steps {
                   sh 'tidy -q -e *.html'
               }
          }
-	stage('development') {
+	 stage('development') {
               steps {
                   sh 'tidy -q -e *.html'
               }
